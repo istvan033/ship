@@ -1,3 +1,17 @@
+/*-----------
+    
+* File: app.js
+* Author: Pásztor
+* Copyright: 2023, Pásztor
+* Group: Szoft I-2 N
+* Date: 2023-05-19
+* Github: https://github.com/erosistvan/
+* Licenc: GNU GPL
+---------*/
+
+
+
+
 body{
     min-height: 100vh;
     display: flex;
@@ -9,3 +23,15 @@ body{
     margin: 10%;
 }
 
+footer{
+    background-color: tomato;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    right: -180px;
+    width: 600px;
+    transform: rotate(45deg);
+    font-size: 10px;
+    border: 3x;
+}
